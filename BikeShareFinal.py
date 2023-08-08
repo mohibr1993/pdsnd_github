@@ -41,6 +41,7 @@ def get_filters():
     days= [1,2,3,4,5,6,7]
 
     while True:
+      # try and exception for both day and month  
       try :
         time_filter = input("Would you like to filter the data by month ,day , both , or not at all? type 'none' for no time filter ").lower()
 
