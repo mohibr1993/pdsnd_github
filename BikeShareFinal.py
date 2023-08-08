@@ -199,10 +199,8 @@ def trip_duration_stats(df):
 
 def user_stats(df):
     """Displays statistics on bikeshare users."""
-
     print('\nCalculating User Stats...\n')
     start_time = time.time()
-
     # TO DO: Display counts of user types
     print('below user types:')
     user_types = df['User Type'].value_counts()
@@ -229,8 +227,6 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
-
 def show_data_five_five(df):
   dic_df = df.to_dict(orient='records')
   show_data ='yes'
@@ -243,13 +239,10 @@ def show_data_five_five(df):
        show_data= input('\nWould like to see 5 more rows of the data ? Enter yes or no.\n ').lower()
      else:
         break
-
-
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-
         time_stats(df)
         #x=input('Press any button to display the next statistics[Station]')
         station_stats(df)
@@ -261,7 +254,6 @@ def main():
         show_data= input('\nWould you like to view individual trip data ? Enter yes or no.\n').lower()
         if show_data in ['yes','y']:
           show_data_five_five(df)
-
 
         restart = input('\nWould you like to restart? Enter yes or no.\n ')
         if restart.lower() != 'yes':
