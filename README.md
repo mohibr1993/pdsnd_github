@@ -7,10 +7,13 @@ The file has been created at 01/08/2023.
 Bikeshare Project 
 
 ### Description
-using Python to explore data related to bikeshare systems for three cities in the United States [ Chicago, New York City, and Washington] . the program provide descriptive statistics as per user request.
+Using Python to explore data related to bikeshare systems for three cities in the United States [ Chicago, New York City, and Washington] . the program provide descriptive statistics as per user request.
 
 ### Files used
-Include the files used
+Three DataSets for each city its file.
+   Chicago
+   New York City
+   Washington
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
