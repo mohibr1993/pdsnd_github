@@ -7,7 +7,7 @@ The file has been created at 01/08/2023.
 Bikeshare Project 
 
 ### Description
-Describe what your project is about and what it does
+using Python to explore data related to bikeshare systems for three cities in the United States [ Chicago, New York City, and Washington] . the program provide descriptive statistics as per user request.
 
 ### Files used
 Include the files used
