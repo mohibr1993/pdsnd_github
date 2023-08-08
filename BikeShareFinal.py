@@ -10,7 +10,7 @@ Original file is located at
 import time
 import pandas as pd
 import numpy as np
-
+#Please replace the directory of the files with your data source directory for three datasets chicago , new york city and washington
 CITY_DATA = { 'chicago': 'D:/UDACITY/chicago.csv',
               'new york city': 'D:/UDACITY/new_york_city.csv',
               'washington': 'D:/UDACITY/washington.csv'}
