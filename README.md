@@ -9,34 +9,34 @@ Bikeshare Project
 ### Description
 Python code to explore data related to bikeshare systems for three cities in the United States [ Chicago, New York City, and Washington] . the program provide descriptive statistics like as below 
 
-####1 The Most Frequent Times of Travel
+#### 1 The Most Frequent Times of Travel
 
-*most common month
-*most common day of week
-*most common hour of day
+*  most common month
+*  most common day of week
+*  most common hour of day
 
-####2 Popular stations and trip
+#### 2 Popular stations and trip
 
-*most common start station
-*most common end station
-*most common trip from start to end (i.e., most frequent combination of start 	station and end station)
+*  most common start station
+*  most common end station
+*  most common trip from start to end (i.e., most frequent combination of start 	station and end station)
 
-####3 Trip duration
+#### 3 Trip duration
 
-*total travel time
-*average travel time
+*  total travel time
+*  average travel time
 
-####4 User info
+#### 4 User info
 
-*counts of each user type
-*counts of each gender (only available for NYC and Chicago)
-*earliest, most recent, most common year of birth (only available for NYC and Chicago)
+*  counts of each user type
+*  counts of each gender (only available for NYC and Chicago)
+*  earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 ### Files used
 Three DataSets for each city its file.
-   Chicago
-   New York City
-   Washington
+*  Chicago
+*  New York City
+*  Washington
 
 
 
